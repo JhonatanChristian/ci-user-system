@@ -31,3 +31,11 @@ $default_pass = 'Your_Password'</p>
 <p><em>@param</em> <strong>$replace</strong> = bool;</p>
 
 <p>If true is past, then the system replace the user date on the DB. If false, in case the user already exists, then returns false.</p>
+
+<h3>get_user_by( $field, $value )</h3>
+
+<p>Gets user by ID or Login.</p>
+
+<p><em>@param</em> <strong>$field</strong> => 'ID' or 'user_login';</p>
+
+<p><em>@param</em> <strong>$value</strong> => Int or String;</p>

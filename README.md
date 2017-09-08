@@ -126,3 +126,11 @@ $default_pass = 'Your_Password'</p>
 <p><em>@param String</em> <strong>$meta_key</strong> => The meta key;</p>
 
 <p><em>@param Bool</em> <strong>$only_meta_value</strong> => If is false, returns all metadata. If is true, returns only the meta value;</p>
+
+<h3>delete_user_meta( $user_id, $meta_key = '' )</h3>
+
+<p>Deletes a user metadata.</p>
+
+<p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
+
+<p><em>@param String</em> <strong>$meta_key</strong> => The meta key;</p>

@@ -96,3 +96,13 @@ $default_pass = 'Your_Password'</p>
 <p>Deletes a user and all his metadata.</p>
 
 <p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
+
+<h3>insert_user_meta( $user_id, $meta_key, $meta_value )</h3>
+
+<p>Creates a user metadata.</p>
+
+<p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
+
+<p><em>@param String</em> <strong>$meta_key</strong> => The meta key;</p>
+
+<p><em>@param String</em> <strong>$meta_value</strong> => The meta value;</p>

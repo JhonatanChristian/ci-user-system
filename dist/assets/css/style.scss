@@ -1,0 +1,37 @@
+/**
+ * Rotheiro Stylesheet
+ *
+ * Large size and global style rules.
+ * Rotheiro, copyright 2017.
+ *
+ * ----------------------------------------------------------------------------
+ * SASS Variables
+ *
+ * App Colors
+ */
+$body-bg-color: #fcfcfc;
+
+/**
+ * ----------------------------------------------------------------------------
+ * General CSS Rules
+ * ----------------------------------------------------------------------------
+ */
+* {
+  box-sizing:border-box;
+  outline:none!important;
+}
+
+body {
+  background-color:$body-bg-color;
+}
+
+/* Buttons */
+.btn {
+  cursor:pointer;
+}
+
+/**
+ * ----------------------------------------------------------------------------
+ * Login Page
+ * ----------------------------------------------------------------------------
+ */

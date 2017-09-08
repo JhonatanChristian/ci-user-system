@@ -494,7 +494,7 @@ class Users_Model extends CI_Model {
 	 *
 	 * @return bool
 	 */
-	public function delete_user_meta( $user_id, $meta_key = '' )
+	public function delete_user_meta( $user_id, $meta_key )
 	{
 		$where = array(
 			'user_id' => $user_id

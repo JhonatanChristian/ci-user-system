@@ -38,4 +38,12 @@ $default_pass = 'Your_Password'</p>
 
 <p><em>@param</em> <strong>$field</strong> => 'ID' or 'user_login';</p>
 
-<p><em>@param</em> <strong>$value</strong> => Int or String;</p>
+<p><em>@param Int or String</em> <strong>$value</strong> => User ID or User Login;</p>
+
+<h3>update_user( $user_id, $user_data )</h3>
+
+<p>Updates the user data.</p>
+
+<p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
+
+<p><em>@param Array</em> <strong>$user_data</strong> => array('user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>

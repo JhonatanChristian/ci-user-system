@@ -24,11 +24,9 @@ $default_pass = 'Your_Password'</p>
 
 <p>Creates a user.</p>
 
-<p>Description:</p>
+<p><em>@param Array</em> <strong>$user_data</strong> = array('user_login' => 'User_Login', 'user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>
 
-<p><em>@param</em> <strong>$user_data</strong> = array('user_login' => 'User_Login', 'user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>
-
-<p><em>@param</em> <strong>$replace</strong> = bool;</p>
+<p><em>@param Bool</em> <strong>$replace</strong> = bool;</p>
 
 <p>If true is past, then the system replace the user date on the DB. If false, in case the user already exists, then returns false.</p>
 
@@ -36,7 +34,7 @@ $default_pass = 'Your_Password'</p>
 
 <p>Gets user by ID or Login.</p>
 
-<p><em>@param</em> <strong>$field</strong> => 'ID' or 'user_login';</p>
+<p><em>@param String</em> <strong>$field</strong> => 'ID' or 'user_login';</p>
 
 <p><em>@param Int or String</em> <strong>$value</strong> => User ID or User Login;</p>
 
@@ -47,3 +45,22 @@ $default_pass = 'Your_Password'</p>
 <p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
 
 <p><em>@param Array</em> <strong>$user_data</strong> => array('user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>
+
+<h3>get_users( $args = array() )</h3>
+
+<p><em>@param Array</em> <strong>$args</strong></p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Param</th>
+      <th>Value</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>id_in</td>
+      <td>array(1, 2, 3, ...)</td>
+    </tr>
+  </tbody>
+</table>

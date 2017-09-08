@@ -26,8 +26,8 @@ $default_pass = 'Your_Password'</p>
 
 <p>Description:</p>
 
-<p><em>@param</em> $user_data = array('user_login' => 'User_Login', 'user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>
+<p><em>@param</em> <strong>$user_data</strong> = array('user_login' => 'User_Login', 'user_pass' => 'user_password', 'user_email' => 'example@email.com', 'user_level' => 0 to 9);</p>
 
-<p><em>@param</em> $replace = bool;</p>
+<p><em>@param</em> <strong>$replace</strong> = bool;</p>
 
 <p>If true is past, then the system replace the user date on the DB. If false, in case the user already exists, then returns false.</p>

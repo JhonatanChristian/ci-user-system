@@ -62,5 +62,29 @@ $default_pass = 'Your_Password'</p>
       <td>id_in</td>
       <td>array(1, 2, 3, ...)</td>
     </tr>
+    <tr>
+      <td>id_not_in</td>
+      <td>array(1, 2, 3, ...)</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>Search string.</td>
+    </tr>
+    <tr>
+      <td>order_by</td>
+      <td>Column name.</td>
+    </tr>
+    <tr>
+      <td>order</td>
+      <td>'ASC' or 'DESC'</td>
+    </tr>
+    <tr>
+      <td>offset</td>
+      <td>Default: 0</td>
+    </tr>
+    <tr>
+      <td>limit</td>
+      <td>Default: 10</td>
+    </tr>
   </tbody>
 </table>

@@ -51,7 +51,7 @@ $default_pass = 'Your_Password'</p>
 <p><em>@param Array</em> <strong>$args</strong></p>
 
 <table>
-  <thead>
+  <thead style="text-align:left;">
     <tr>
       <th>Param</th>
       <th>Value</th>

@@ -13,3 +13,16 @@ A simple user system for any project in CodeIgniter.
 
 <p>$default_user = 'Your_Login'<br>
 $default_pass = 'Your_Password'</p>
+
+<p>Then you can use that information to login on the dashboard. There is not panel areas to manipulate your users data (once the purpose of the project is brings a basic user system for your application development). However, you can use some basic functions to develop your user system.</p>
+
+<h2>Basic Functions</h2>
+
+<p>The model of the users is <strong>Users_Model</strong>. He brings the follow methods:</p>
+
+<h3>create_user( $user_data, $replace = false )</h3>
+
+<p>Creates a user.</p>
+
+<p>Description:</p>
+

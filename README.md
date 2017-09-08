@@ -109,8 +109,20 @@ $default_pass = 'Your_Password'</p>
 
 <h3>update_user_meta( $user_id, $meta_key, $meta_value )</h3>
 
+<p>Updates a user metadata.</p>
+
 <p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
 
 <p><em>@param String</em> <strong>$meta_key</strong> => The meta key;</p>
 
 <p><em>@param String</em> <strong>$meta_value</strong> => The meta value;</p>
+
+<h3>get_user_meta( $user_id, $meta_key, $only_meta_value = false )</h3>
+
+<p>Gets a user metadata.</p>
+
+<p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
+
+<p><em>@param String</em> <strong>$meta_key</strong> => The meta key;</p>
+
+<p><em>@param Bool</em> <strong>$only_meta_value</strong> => If is false, returns all metadata. If is true, returns only the meta value;</p>

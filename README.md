@@ -50,6 +50,8 @@ $default_pass = 'Your_Password'</p>
 
 <p><em>@param Array</em> <strong>$args</strong></p>
 
+<p>Returns users.</p>
+
 <table>
   <thead style="text-align:left;">
     <tr>

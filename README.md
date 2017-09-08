@@ -88,3 +88,9 @@ $default_pass = 'Your_Password'</p>
     </tr>
   </tbody>
 </table>
+
+<h3>delete_user( $user_id )</h3>
+
+<p>Deletes a user and all his metadata.</p>
+
+<p><em>@param Int</em> <strong>$user_id</strong> => User ID;</p>
